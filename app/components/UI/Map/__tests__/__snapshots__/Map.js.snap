@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map specification renders correctly 1`] = `
+<div
+  className="base"
+>
+  <withScriptjs(withGoogleMap(Component))
+    containerElement={
+      <div
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      />
+    }
+    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX0yWmVXi9hNkpjAvw1Cfa8N0PV0zaeO8&v=3.exp&libraries=geometry,drawing,places"
+    loadingElement={
+      <div
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      />
+    }
+    mapElement={
+      <div
+        style={
+          Object {
+            "height": "100%",
+          }
+        }
+      />
+    }
+  />
+</div>
+`;

@@ -1,0 +1,133 @@
+//
+// Base reset
+//
+
+/* stylelint-disable selector-list-comma-newline-after  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+article,
+aside,
+audio,
+canvas,
+datalist,
+details,
+embed,
+figcaption,
+figure,
+footer,
+header,
+keygen,
+menu,
+nav,
+output,
+progress,
+section,
+source,
+video {
+    display: block;
+    margin: 0;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: normal;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need cellspacing='0' in the markup */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+}
+
+button::-moz-focus-inner,
+input[type='reset']::-moz-focus-inner,
+input[type='button']::-moz-focus-inner,
+input[type='submit']::-moz-focus-inner,
+input[type='file'] > input[type='button']::-moz-focus-inner {
+    border: none;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+input,
+textarea {
+
+    &::-webkit-input-placeholder {
+        color: #8b8980;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    &::-moz-placeholder {
+        color: #8b8980;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    &:-ms-input-placeholder {
+        color: #8b8980;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+::-ms-clear {
+    display: none;
+}
+
+input:-webkit-autofill {
+    color: #000 !important;
+}

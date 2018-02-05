@@ -1,0 +1,10 @@
+.eslintcache
+.sass-cache
+.DS_Store
+.idea
+.history
+
+npm-debug.log
+
+node_modules
+dist

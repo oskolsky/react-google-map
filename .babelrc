@@ -1,0 +1,35 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 1 major versions"
+          ]
+        },
+        "modules": false
+      }
+    ],
+    "stage-0",
+    "react"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "browsers": [
+                "last 1 major versions"
+              ]
+            }
+          }
+        ],
+        "stage-0",
+        "react"
+      ]
+    }
+  }
+}

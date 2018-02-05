@@ -1,0 +1,45 @@
+@import '~stylesheets/core';
+
+.base {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: map-get($zindex, dialog);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background: rgba(0, 0, 0, .8);
+        content: '';
+    }
+
+    &.isOpened {
+        display: flex;
+    }
+}
+
+.dialog {
+    position: relative;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background: #fff;
+}
+
+.close {
+    position: absolute;
+    top: -52px;
+    right: 9px;
+    color: #fff;
+}

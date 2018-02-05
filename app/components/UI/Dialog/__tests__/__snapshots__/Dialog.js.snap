@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog specification is opened renders correctly 1`] = `
+<div
+  className="base isOpened"
+>
+  <div
+    className="dialog"
+  >
+    <div
+      className="close"
+      onClick={[MockFunction]}
+    >
+      Закрыть
+    </div>
+    <div
+      className="body"
+    >
+      This is Dialog
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog specification renders correctly 1`] = `
+<div
+  className="base"
+>
+  <div
+    className="dialog"
+  >
+    <div
+      className="close"
+      onClick={[MockFunction]}
+    >
+      Закрыть
+    </div>
+    <div
+      className="body"
+    >
+      This is Dialog
+    </div>
+  </div>
+</div>
+`;

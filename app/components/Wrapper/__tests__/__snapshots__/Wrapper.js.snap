@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper specification renders correctly 1`] = `
+<div
+  className="base"
+>
+  <div
+    className="map"
+  >
+    <Map
+      center={
+        Object {
+          "latitude": 0,
+          "longitude": 0,
+        }
+      }
+      zoom={10}
+    />
+  </div>
+</div>
+`;
